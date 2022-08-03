@@ -6,8 +6,13 @@ Totallssystemet
  - Flagg - hvordan lese, hvordan skru av og på, hvordan få beskrivelse 
    https://stackoverflow.com/questions/8447/what-does-the-flags-enum-attribute-mean-in-c
  - Addisjon ved hjelp av bitwise operators
- - I JavaScript 0b010101. Number(5).toString(2)
- - I C#
-   https://stackoverflow.com/questions/594720/c-sharp-binary-literals
+ - I JavaScript 
+   - 0b010101
+   - Number(5).toString(2)
+   - parseInt('1010',2)
+ - I C# 
+   - Convert.ToString(value, toBase) => string 
+   - Convert.ToInt32(number, fromBase) => int
+   - https://stackoverflow.com/questions/594720/c-sharp-binary-literals
  - Kalkulator
- - Heksadesimalt
+ - Octal, Hexadecimal
