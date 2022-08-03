@@ -14,5 +14,6 @@ Totallssystemet
    - Convert.ToString(value, toBase) => string 
    - Convert.ToInt32(number, fromBase) => int
    - https://stackoverflow.com/questions/594720/c-sharp-binary-literals
+   - Datatypene byte, short, ushort, int, uint, long, ulong
  - Kalkulator
  - Octal, Hexadecimal
