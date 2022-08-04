@@ -1,0 +1,29 @@
+AND, OR, XOR, NOT, Left shift, right Shift
+
+3 Bitwise OR 6 
+( 3 | 6 i JavaScript og i C#)
+3 => 0000 0011
+6 => 0000 0110
+7 <= 0000 0111
+
+3 Bitwise AND 6 
+( 3 & 6 i JavaScript og i C#)
+3 => 0000 0011
+6 => 0000 0110
+2 <= 0000 0010
+
+3 Bitwise XOR 6 
+( 3 ^ 6 i JavaScript og i C#)
+3 => 0000 0011
+6 => 0000 0110
+5 <= 0000 0101
+
+Bitwise NOT 10
+(~10 i JavaScript og C#)
+10 => 0000 1010
+      1111 0101
+
+7 Bitwise left shift 2
+(7 << 2 i JavaScript og C#)
+ 7 => 0000 0111
+28 => 0001 1100

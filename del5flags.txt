@@ -1,0 +1,17 @@
+The [Flags] attribute should be used whenever the enumerable represents a collection of possible values, rather than a single value. Such collections are often used with bitwise operators, for example:
+
+enum MyColor {
+    None = 0,
+    Red = 1,
+    Green = 2,
+    Blue = 4,
+    Yellow = 8,
+    Pink = 16,
+}
+
+var allowedColors = MyColor.Red | MyColor.Green | MyColor.Blue;
+
+MyColor.Red =>   1 => 0001
+MyColor.Green => 2 => 0010
+MyColor.Blue =>  4 => 0100
+allowedColors    7 <= 0111

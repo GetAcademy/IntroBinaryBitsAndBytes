@@ -1,0 +1,48 @@
+* Titallssystemet
+
+    275
+    5 enere    (=  5) - verdi 1
+    7 tiere    (= 70) - verdi 10
+    2 hundrere (=200) - verdi 100
+    Verdien tidobles for hver posisjon vi går til venstre
+    Derfor => titallssystemet
+    Sifre fra 0 til 9
+
+* Fra Titallssystemet -> Totallssystemet
+
+    en byte = 8 bits
+    00010010
+    0 enere     (= 0)
+    1 toer      (= 2) 
+    0 firere    (= 0)
+    0 åttere    (= 0)
+    1 sekstener (=16)
+    sum          =18 
+
+    Verdien todobles for hver posisjon vi går til venstre
+    Derfor => totallssystemet
+    Sifre fra 0 til 1
+
+* Fra Totallssystemet -> Titallssystemet
+
+    128  64  32  16  08  04  02  01
+      0   1   0   1   0   1   0   1
+    =64+16+4+1=85
+
+    32 => 00100000
+
+    Gjøre om 75
+    Hvor mange 128-ere skal vi ha? 0
+    Hvor mange 64-ere skal vi ha? 1 => verdi 64
+    Rest = 75 - 64 = 11
+    Hvor mange 32-ere skal vi ha? 0
+    Hvor mange 16-ere skal vi ha? 0
+    Hvor mange 8-ere skal vi ha? 1 => verdi 8
+    Rest = 11 - 8 = 3
+    Hvor mange 4-ere skal vi ha? 0
+    Hvor mange 2-ere skal vi ha? 1 => verdi 2
+    Rest 3 - 2 = 1
+    Hvor mange 1-ere skal vi ha? 1 => verdi 1
+    Rest 1 - 1 = 0
+
+    75 desimalt => 01001011 binært
